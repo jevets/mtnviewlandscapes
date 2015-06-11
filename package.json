@@ -1,0 +1,17 @@
+{
+  "name": "mountainviewlandscapes",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.4",
+    "browserify": "^10.2.4",
+    "gmaps": "^0.4.18",
+    "harp": "^0.17.0",
+    "jquery": "^2.1.4"
+  },
+  "scripts": {
+    "serve": "harp server --port=9001",
+    "build-js": "browserify public/js/app.js > public/js/bundle.js",
+    "watch-js": "watchify public/js/app.js -o public/js/bundle.js",
+    "dev": "npm run serve & npm run watch-js"
+  }
+}

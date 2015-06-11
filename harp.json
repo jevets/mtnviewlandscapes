@@ -1,0 +1,10 @@
+{
+  "globals": {
+    "site": {
+      "name": "Mountain View Landscapes",
+      "email": "",
+      "phone": "",
+      "fax": ""
+    }
+  }
+}
