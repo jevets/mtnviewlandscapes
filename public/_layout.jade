@@ -10,11 +10,39 @@ html(lang='en')
       script(src='//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js')
       script(src='//oss.maxcdn.com/respond/1.4.2/respond.min.js')
   body
+
+    nav.navbar.navbar-inverse
+      .container-fluid
+        .navbar-header
+          button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#menu')
+            i.sr-only Menu
+            i.icon-bar
+            i.icon-bar
+            i.icon-bar
+          a.navbar-brand.visible-xs(href='/')= site.name
+        #menu.navbar-collapse.collapse
+          ul.nav.navbar-nav
+            li: a(href='tel:#{ site.phone }')
+              i.fa.fa-phone-square
+              |&nbsp;
+              != site.phone
+          .navbar-right
+            ul.nav.navbar-nav
+              li: a(href='mailto:#{ site.email }')
+                i.fa.fa-envelope
+                |&nbsp;
+                != site.email
     header.site-header
+      .container
+        
+
     main.site-main
       != yield
+
     footer.site-footer
       .container
-        p &copy; #{ new Date().getFullYear() } #{ site.name }
+        hr
+        p &copy; #{ new Date().getFullYear() } 
+          a(href='http://#{ site.domain }/') #{ site.name }
 
     script(src='/js/bundle.js')
