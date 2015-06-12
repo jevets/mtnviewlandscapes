@@ -1,10 +1,86 @@
-.hero
+//- .hero
 
 section.section-block
   .section-block-title
-    h2 Contact Us
+    .container
+      .row
+        .col-sm-10.col-sm-offset-1
+          h2 Landscape Design, Installation, and Maintenance
   .container
     .row
+      .col-sm-8.col-sm-offset-2
+
+section.section-block
+  .section-block-title
+    .container
+      .row
+        .col-sm-8.col-sm-offset-2
+          h2 For all your landscaping needs
+  .container
+    .row
+      .col-sm-8.col-sm-offset-2
+        .row
+          .col-sm-4.text-center
+            .icon-lg: i.fa.fa-check-square
+            ul.list-unstyled
+              li Design 
+              li Consultation
+              li Lawn Maintenance
+              li Stonework and Boulders
+              li Retaining Walls
+          .col-sm-4.text-center
+            .icon-lg: i.fa.fa-check-square
+            ul.list-unstyled
+              li Patios
+              li Erosion Control
+              li Water Features
+              li Irrigation
+              li Hydro-Seeding
+          .col-sm-4.text-center
+            .icon-lg: i.fa.fa-check-square
+            ul.list-unstyled
+              li Arobrs, Decks, and Fences
+              li Trees and Shrubs
+              li Gardens
+              li Lighting
+              li Fountains
+
+section.section-block
+  .section-block-title
+    .container
+      .row
+        .col-sm-10.col-sm-offset-1
+          h2 Contact Us
+  .container
+    .text-center
+      h3 Contact us for a FREE consultation
+      br
+      br
+      p.lead
+        i.fa.fa-phone-square
+        |&nbsp;
+        a(href='tel:#{ site.phone }')= site.phone
+      p.lead
+        i.fa.fa-mobile
+        |&nbsp;
+        a(href='tel:#{ site.mobile }')= site.mobile
+      p.lead
+        i.fa.fa-envelope
+        |&nbsp;
+        a(href='mailto:#{ site.email }')= site.email
+      p
+        != site.address.street
+        br
+        |#{ site.address.city }, #{ site.address.state } #{ site.address.zip }
+#gmap(data-lng='#{ site.address.lng }', data-lat='#{ site.address.lat }', data-marker-title='#{ site.name }')
+      //- p  
+        i.fa.fa-map-marker
+        |&nbsp;
+        a(href='#{ site.gmapUrl }') 
+          | View map
+          |&nbsp;
+          i.fa.fa-external-link
+    //- .row
       .col-sm-4.col-sm-offset-2
         img(src='//placehold.it/240x300', alt='')
       .col-sm-4

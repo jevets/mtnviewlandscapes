@@ -5,13 +5,17 @@
       "tagline": "Asheville, NC Landscaping design, installation, and maintenance",
       "email": "mvlandscapes@yahoo.com",
       "phone": "828-222-2221",
+      "mobile": "828-216-7307",
       "domain": "mountainviewlandscapes.co",
       "address": {
         "street": "827 Charlotte Hwy",
         "city": "Fairview",
         "state": "NC",
-        "zip": "28730"
-      }
+        "zip": "28730",
+        "lat": "35.543764",
+        "lng": "-82.443971"
+      },
+      "gmapUrl": "https://goo.gl/maps/a5vay"
     }
   }
 }
