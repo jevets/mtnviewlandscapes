@@ -32,6 +32,12 @@ There are several `npm` scripts available. See `package.json` for more info, but
 
 Simply runs the harp webserver.
 
+Port 9001 is used by default for serving. So you'd access your local server at [localhost:9001](http://localhost:9001).
+
+##### Overriding the local server port
+
+Override the port by running `npm run serve -- --port=xxxx`, which will result in a local server runnning at localhost:xxxx.
+
 #### `npm run build-js`
 
 Runs `browserify` on `app.js`, resulting in a `bundle.js` that includes third-party scripts loaded via `require()`.
