@@ -4,7 +4,7 @@ section.section-block
   .section-block-title
     .container
       .row
-        .col-sm-10.col-sm-offset-1
+        .col-xs-10.col-xs-offset-1
           h2 Landscape Design, Installation, and Maintenance
   .container
     .row
@@ -14,7 +14,7 @@ section.section-block
   .section-block-title
     .container
       .row
-        .col-sm-8.col-sm-offset-2
+        .col-xs-8.col-xs-offset-2
           h2 For all your landscaping needs
   .container
     .row
@@ -55,7 +55,6 @@ section.section-block
     .text-center
       h3 Contact us for a FREE consultation
       br
-      br
       p.lead
         i.fa.fa-phone-square
         |&nbsp;
@@ -72,17 +71,5 @@ section.section-block
         != site.address.street
         br
         |#{ site.address.city }, #{ site.address.state } #{ site.address.zip }
+
 #gmap(data-lng='#{ site.address.lng }', data-lat='#{ site.address.lat }', data-marker-title='#{ site.name }')
-      //- p  
-        i.fa.fa-map-marker
-        |&nbsp;
-        a(href='#{ site.gmapUrl }') 
-          | View map
-          |&nbsp;
-          i.fa.fa-external-link
-    //- .row
-      .col-sm-4.col-sm-offset-2
-        img(src='//placehold.it/240x300', alt='')
-      .col-sm-4
-        h3 Damon Kittles, Owner
-        p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem omnis, praesentium non atque esse, repellat. 

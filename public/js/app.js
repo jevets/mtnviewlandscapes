@@ -17,7 +17,7 @@ var gmaps = require('gmaps');
       lat: lat,
       lng: lng,
       scrollwheel: false,
-      zoom: 10
+      zoom: 11
     });
 
     map.addMarker({
