@@ -1,6 +1,9 @@
 $ = jQuery = require('jquery');
 var bootstrap = require('bootstrap');
 var gmaps = require('gmaps');
+var imagesLoaded = require('imagesloaded');
+var isotope = require('isotope');
+
 
 (function($) {
 
@@ -27,13 +30,23 @@ var gmaps = require('gmaps');
     });
   };
 
-  App.init = function() {
-    App.loadMap();
+
+  App.layoutGallery = function() {
+    var gallery = $('.gallery');
+    gallery.isotope({
+      itemSelector: '.gallery-item',
+      layoutMode: 'fitRows'
+    });
+    gallery.imagesLoaded().progress(function() {
+      gallery.isotope('layout');
+    });
   };
 
 
+
   $(document).ready(function() {
-    App.init();
+    App.loadMap();
+    App.layoutGallery();
   });
 
 })(jQuery);

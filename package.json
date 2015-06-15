@@ -6,6 +6,8 @@
     "browserify": "^10.2.4",
     "gmaps": "^0.4.18",
     "harp": "^0.17.0",
+    "imagesloaded": "^3.1.8",
+    "isotope": "^0.3.2",
     "jquery": "^2.1.4"
   },
   "scripts": {
