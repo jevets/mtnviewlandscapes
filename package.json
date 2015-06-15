@@ -12,9 +12,10 @@
   },
   "scripts": {
     "serve": "harp server --port=9001",
+    "file-perms": "chmod -R 755 public/img/* public/icon/*",
     "build-js": "browserify public/js/app.js > public/js/bundle.js",
     "watch-js": "watchify public/js/app.js -o public/js/bundle.js",
     "dev": "npm run watch-js & npm run serve",
-    "build": "npm run build-js && harp compile"
+    "build": "(npm run file-perms) && npm run build-js && harp compile"
   }
 }
