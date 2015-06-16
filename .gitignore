@@ -3,3 +3,4 @@ www
 bundle.js
 *.log
 /secrets.*
+work.originals

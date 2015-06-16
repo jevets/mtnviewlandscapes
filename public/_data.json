@@ -1,44 +1,86 @@
 {
   "index": {
     "works": [{
+      "filename": "IMG_1587.jpg",
+      "caption": "Stone steps and plantings"
+    }, {
       "filename": "stone-1.jpg",
-      "caption": "Pond and Waterfall with custom bridge, gazebo, paver patio, and plantings.",
-      "categories": [
-        "bridge",
-        "custom",
-        "water"
-      ],
-      "itemWidth": 2,
-      "itemHeight": 1
+      "caption": "Pond and Waterfall with custom bridge, gazebo, paver patio, and plantings."
     }, {
       "filename": "stone-2.jpg",
-      "caption": "Pond and Waterfall with custom bridge, gazebo, paver patio, and plantings.",
-      "categories": [
-        "bridge",
-        "custom",
-        "water"
-      ],
-      "itemWidth": 1,
-      "itemHeight": 2
+      "caption": "Pond and Waterfall with custom bridge, gazebo, paver patio, and plantings."
     }, {
       "filename": "stone-3.jpg",
-      "caption": "Pond and Waterfall with custom bridge, gazebo, paver patio, and plantings.",
-      "categories": [
-        "stone",
-        "water",
-        "custom"
-      ],
-      "itemWidth": 2,
-      "itemHeight": 1
+      "caption": "Pond and Waterfall with custom bridge, gazebo, paver patio, and plantings."
     }, {
       "filename": "stone-4.jpg",
-      "caption": "Pond and Waterfall with custom bridge, gazebo, paver patio, and plantings.",
-      "categories": [
-        "brick",
-        "plantings",
-        "stone",
-        "water"
-      ]
+      "caption": "Pond and Waterfall with custom bridge, gazebo, paver patio, and plantings."
+    }, {
+      "filename": "stone-5.jpg",
+      "caption": "Pond and Waterfall with custom bridge, gazebo, paver patio, and plantings."
+    }, {
+      "filename": "DSCN1482.JPG",
+      "caption": "Lawn renovation and foundation landscape"  
+    }, {
+      "filename": "DSCN1477.JPG",
+      "caption": "Paver patio with steps and retaining wall to match existing wall"
+    }, {
+      "filename": "IMG_0912.jpg",
+      "caption": "Residential landscape including Picket fence, Privacy fence, Brick pavers, and Plantings"
+    }, {
+      "filename": "IMG_0911.jpg",
+      "caption": "Residential landscape including Picket fence, Privacy fence, Brick pavers, and Plantings"  
+    }, {
+      "filename": "IMG_0917.jpg",
+      "caption": "Residential landscape including Picket fence, Privacy fence, Brick pavers, and Plantings"
+    }, {
+      "filename": "IMG_0926.jpg",
+      "caption": "Residential landscape including Picket fence, Privacy fence, Brick pavers, and Plantings"
+    }, {
+      "filename": "IMG_0856.jpg",
+      "caption": "Residential landscape including Picket fence, Privacy fence, Brick pavers, and Plantings"  
+    }, {
+      "filename": "IMG_0928-small.jpg",
+      "caption": "Residential landscape including Picket fence, Privacy fence, Brick pavers, and Plantings"
+    }, {
+      "filename": "IMG_0282.jpg",
+      "caption": "Large trees"  
+    }, {
+      "filename": "DSCN1430.JPG",
+      "caption": "Hardscaping with Paver patio, Stone entranceway, Stone retaining wall to match existing stonework and dry stream bed."
+    }, {
+      "filename": "DSCN1431.JPG",
+      "caption": "Hardscaping with Paver patio, Stone entranceway, Stone retaining wall to match existing stonework and dry stream bed."  
+    }, {
+      "filename": "DSCN1424.JPG",
+      "caption": "Hardscaping with Paver patio, Stone entranceway, Stone retaining wall to match existing stonework and dry stream bed."  
+    }, {
+      "filename": "DSCN1437.JPG",
+      "caption": "Hardscaping with Paver patio, Stone entranceway, Stone retaining wall to match existing stonework and dry stream bed."  
+    }, {
+      "filename": "IMG_0938.jpg",
+      "caption": "Stone Garden Steps and Raised Planter"  
+    }, {
+      "filename": "IMG_0947.jpg",
+      "caption": "Stone Garden Steps and Raised Planter"  
+    }, {
+      "filename": "fence5.jpg",
+      "caption": "Picket Fence and Gate"  
+    }, {
+      "filename": "fence2.jpg",
+      "caption": "Picket Fence and Gate"  
+    }, {
+      "filename": "DSCN2349.JPG",
+      "caption": "Brick Paver Driveway, Retaining walls and Stone Steps"  
+    }, {
+      "filename": "DSCN2353.JPG",
+      "caption": "Brick Paver Driveway, Retaining walls and Stone Steps"
+    }, {
+      "filename": "Accessory-building-1.jpg",
+      "caption": "Custom Accessory Building"
+    }, {
+      "filename": "Accessory-building-2.jpg",
+      "caption": "Custom Accessory Building"
     }]
   }
 }
