@@ -1,0 +1,44 @@
+{
+  "index": {
+    "works": [{
+      "filename": "stone-1.jpg",
+      "caption": "Pond and Waterfall with custom bridge, gazebo, paver patio, and plantings.",
+      "categories": [
+        "bridge",
+        "custom",
+        "water"
+      ],
+      "itemWidth": 2,
+      "itemHeight": 1
+    }, {
+      "filename": "stone-2.jpg",
+      "caption": "Pond and Waterfall with custom bridge, gazebo, paver patio, and plantings.",
+      "categories": [
+        "bridge",
+        "custom",
+        "water"
+      ],
+      "itemWidth": 1,
+      "itemHeight": 2
+    }, {
+      "filename": "stone-3.jpg",
+      "caption": "Pond and Waterfall with custom bridge, gazebo, paver patio, and plantings.",
+      "categories": [
+        "stone",
+        "water",
+        "custom"
+      ],
+      "itemWidth": 2,
+      "itemHeight": 1
+    }, {
+      "filename": "stone-4.jpg",
+      "caption": "Pond and Waterfall with custom bridge, gazebo, paver patio, and plantings.",
+      "categories": [
+        "brick",
+        "plantings",
+        "stone",
+        "water"
+      ]
+    }]
+  }
+}

@@ -2,7 +2,7 @@ doctype html
 html(lang='en')
   head
     meta(charset='utf-8')
-    title= site.name
+    title #{ site.tagline } - #{ site.name }
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     link(rel='stylesheet', href='/css/app.css')
     link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
@@ -23,12 +23,13 @@ html(lang='en')
           a.navbar-brand.visible-xs(href='/')= site.name
         #menu.navbar-collapse.collapse
           ul.nav.navbar-nav
-            li: a(href='tel:#{ site.phone }')
-              i.fa.fa-phone-square
-              |&nbsp;
-              != site.phone
+            li: a(href='/')= site.tagline
           .navbar-right
             ul.nav.navbar-nav
+              li: a(href='tel:#{ site.phone }')
+                i.fa.fa-phone-square
+                |&nbsp;
+                != site.phone
               li: a(href='mailto:#{ site.email }')
                 i.fa.fa-envelope
                 |&nbsp;
@@ -47,6 +48,7 @@ html(lang='en')
     footer.site-footer
       .container
         hr
+        p.text-center: img.img-responsive(src='/img/logo.png', alt='#{ site.name }', width='200')
         p &copy; #{ new Date().getFullYear() } 
           a(href='http://#{ site.domain }/') #{ site.name }
 

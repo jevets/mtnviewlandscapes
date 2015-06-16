@@ -32,14 +32,14 @@ var isotope = require('isotope');
 
 
   App.layoutGallery = function() {
-    var gallery = $('.gallery');
-    gallery.isotope({
-      itemSelector: '.gallery-item',
-      layoutMode: 'fitRows'
+    var grid = $('.grid');
+    grid.isotope({
+      itemSelector: '.grid-item',
+      layoutMode: 'packery'
     });
-    gallery.imagesLoaded().progress(function() {
-      gallery.isotope('layout');
-    });
+    // grid.imagesLoaded().progress(function() {
+    //   grid.isotope('layout');
+    // });
   };
 
 

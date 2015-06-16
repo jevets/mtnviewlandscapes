@@ -1,21 +1,19 @@
-//- .hero
+.hero
+
+
+.divider
 
 section.section-block
   .section-block-title
     .container
       .row
-        .col-xs-10.col-xs-offset-1
-          h2 Landscape Design, Installation, and Maintenance
-  .container
-    .row
-      .col-sm-8.col-sm-offset-2
-
-section.section-block
-  .section-block-title
-    .container
-      .row
-        .col-xs-8.col-xs-offset-2
-          h2 For all your landscaping needs
+        .col-sm-10.col-sm-offset-1
+          hr
+          h2 Landscaping 
+            br
+            br
+            | Design &bull; Installation &bull; Maintenance
+          hr
   .container
     .row
       .col-sm-8.col-sm-offset-2
@@ -45,24 +43,54 @@ section.section-block
               li Lighting
               li Fountains
 
+.divider
+
 section.section-block
   .section-block-title
     .container
       .row
         .col-sm-10.col-sm-offset-1
-          h2 Contact Us
+          hr
+          h2 See Our Work
+          hr
+  .container
+    .row
+      .col-sm-10.col-sm-offset-1
+        ul.nav.nav-pills
+          li.active: a(data-filter='*', href='javascript:void') All
+          li: a(data-filter='.planting', href='javascript:void') Plantings
+          li: a(data-filter='.brick', href='javascript:void') Brick &amp; Stone
+          li: a(data-filter='.water', href='javascript:void') Water features
+          li: a(data-filter='.steps', href='javascript:void') Steps
+          li: a(data-filter='.custom', href='javascript:void') Custom Construction
+        hr
+        .grid
+          each img in works
+            .grid-item
+              img.img-responsive(src='/img/work/#{ img.filename }', class='#{ img.categories.join(" ") } #{ img.itemWidth > 1 ? "grid-item--width2" : "" } #{ img.itemHeight > 1 ? "grid-item--height2" : "" }', alt='')
+
+.divider
+
+section.section-block
+  .section-block-title
+    .container
+      .row
+        .col-sm-10.col-sm-offset-1
+          hr
+          h2 Contact us for a FREE consultation
+          hr
   .container
     .text-center
-      h3 Contact us for a FREE consultation
-      br
       p.lead
         i.fa.fa-phone-square
         |&nbsp;
         a(href='tel:#{ site.phone }')= site.phone
+        |&nbsp;(office)
       p.lead
         i.fa.fa-mobile
         |&nbsp;
         a(href='tel:#{ site.mobile }')= site.mobile
+        |&nbsp;(mobile)
       p.lead
         i.fa.fa-envelope
         |&nbsp;
@@ -71,5 +99,8 @@ section.section-block
         != site.address.street
         br
         |#{ site.address.city }, #{ site.address.state } #{ site.address.zip }
+      p.text-center: a(href='#{ gmapUrl }', target='_blank') View in Google Maps
+        |&nbsp;
+        i.fa.fa-external-link
 
 #gmap(data-lng='#{ site.address.lng }', data-lat='#{ site.address.lat }', data-marker-title='#{ site.name }')
